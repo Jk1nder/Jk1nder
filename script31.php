@@ -1,6 +1,6 @@
 <html>  
 <head>  
-    <title>Р¤РѕСЂРјР°</title>  
+    <title>Р В¤Р С•РЎР‚Р СР В°</title>  
     <meta charset="UTF-8">  
 </head>  
 <body>  
@@ -8,17 +8,17 @@
 <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">  
       
     <select name="f3" required="required">  
-        <option value="">Тип палива°</option>  
-        <option value="1">Бензин</option>  
-        <option value="2">Дизель</option>  
+        <option value="">РўРёРї РїР°Р»РёРІР°В°</option>  
+        <option value="1">Р‘РµРЅР·РёРЅ</option>  
+        <option value="2">Р”РёР·РµР»СЊ</option>  
     
     </select>  
     <br>  
       
       
-    Об'єм двигуна ( куб см) : <input type="number" name="f1" required="required"><br>  
-    Рік випуску(1970-2021) : <input type="number" name="f2" required="required"><br>  
-    Вартість: <input type="number" name="f4" required="required"><br>  
+    РћР±'С”Рј РґРІРёРіСѓРЅР° ( РєСѓР± СЃРј) : <input type="number" name="f1" required="required"><br>  
+    Р С–Рє РІРёРїСѓСЃРєСѓ(1970-2021) : <input type="number" name="f2" required="required"><br>  
+    Р’Р°СЂС‚С–СЃС‚СЊ: <input type="number" name="f4" required="required"><br>  
        
     <input type="submit">  
 </form>  
@@ -48,11 +48,11 @@ if ((!empty($_POST['f2'])) and (!empty($_POST['f1'])) and (!empty($_POST['f3']))
            
           
           
-        echo ("Акциз: $f8");  
+        echo ("РђРєС†РёР·: $f8");  
           
     } else   
     {  
-      echo ("Погані дані введіть заново");  
+      echo ("РџРѕРіР°РЅС– РґР°РЅС– РІРІРµРґС–С‚СЊ Р·Р°РЅРѕРІРѕ");  
           
     }  
 }  
