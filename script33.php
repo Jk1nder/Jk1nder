@@ -1,12 +1,12 @@
 <html> 
 <head> 
-    <title>Форма</title> 
+    <title>Р¤РѕСЂРјР°</title> 
     <meta charset="UTF-8"> 
 </head> 
 <body> 
  
 <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post"> 
-    Висота піраміди: <input type="number" name="$f1"><br> 
+    Р’РёСЃРѕС‚Р° РїС–СЂР°РјС–РґРё: <input type="number" name="$f1"><br> 
     <input type="submit"> 
 </form> 
     <p align="right"> 
