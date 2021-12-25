@@ -25,7 +25,7 @@ $i = 0;
 foreach($f2 as $value){ 
  $strlen++; 
  $strlen += mb_strlen($value); 
- if($strlen >40){ 
+ if($strlen > 40){ 
   $i++; 
   $strlen = 0; 
  } 
