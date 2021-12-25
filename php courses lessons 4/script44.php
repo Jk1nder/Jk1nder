@@ -14,7 +14,7 @@ if (!empty($_POST['name'])) {
     $f1 = $_POST['name'];
 $f2 = explode(' ',$f1); 
 foreach ($f2 as $key => $value) {
- if (strlen($f2[$key])>40) {
+ if (mb_strlen($f2[$key])>40) {
 echo "Please observe the input conditions";
 exit;
 }
@@ -24,7 +24,7 @@ $array = [];
 $i = 0; 
 foreach($f2 as $value){ 
  $strlen++; 
- $strlen += strlen($value); 
+ $strlen += mb_strlen($value); 
  if($strlen >= 40){ 
   $i++; 
   $strlen = 0; 
