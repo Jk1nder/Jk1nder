@@ -32,8 +32,7 @@ foreach($f2 as $value){
  $array[$i] .= $value." ";  
 }  
 $result = implode("<br>",$array);  
-print_r($result);  
-echo $newtext;  
+print_r($result);   
  
 } 
 ?> 
